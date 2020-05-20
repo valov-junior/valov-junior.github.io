@@ -1,0 +1,488 @@
+
+.header{
+    background:url(./img/bg.png)no-repeat;
+    background-size: cover;
+    background-position: center center;
+   padding:20px 0 100px 0px;   
+}
+.line{
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 100px;
+}
+.p-100{
+    padding: 100px 0px;
+}
+.mynavbar{
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0px;
+    border: none;
+    padding: 10px;
+}
+.mylogo{
+    padding: 10px 15px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: red;
+}
+.mynavbar-right li:last-child{
+    border-radius: 30px;
+    border: 1px solid red;
+}
+.mynavbar-right li:last-child a{
+    color: red;
+}
+.mynavbar-right li:last-child a:hover{
+    color: white;
+}
+.mynavbar-right li:last-child:hover{
+    border-color: white;
+}
+.title{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.title h1{
+     color: #fff;
+     margin: 100px 0px 25px 0px;     
+}
+.title p{
+    color: #cecece;
+}
+.form-group .enter{
+    border-radius: 30px 0px 0px 30px;
+    border: none;
+    margin-top: 45px;
+    width: 80%;
+    padding: 10px;    
+}
+.form-group .enter-submit{
+       margin-left: -5px;
+       padding: 10px 15px;
+       border: none;
+       background: red;
+       color: white;
+       border-radius: 0px 30px 30px 0px;
+       width: 20%;
+}
+/* .tt{
+    display:table;
+} */
+/* .tt .one{
+    width:50px;
+    height:50px;
+    background: grey;
+    border-radius:50%;
+   float:left;
+}
+.tt .two{
+   float:left;
+} */
+.form-group{
+    width: 50%;
+    margin: auto;
+}
+.chat{
+    width: 25%;
+    margin: auto;
+    margin-top: 80px;
+    
+}
+.chat-first{
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 10px;
+    position: relative;  
+    left:-50px; 
+}
+.chat-second{
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 10px;
+    position: relative;
+    right:-50px;
+      
+}
+ .chat-second img{
+    width: 65px;
+    position: absolute;
+    right: -30px;
+    top: 15px;
+
+}
+.chat-first img{
+    width: 65px;
+    position: absolute;
+    left: -40px;
+    bottom: 19px;
+}
+
+
+
+.analyzing-text h2:after{
+   content: url(./img/line.png);
+   width: 71px;
+   height: 9px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+.analyzing-text h2{
+    position: relative;
+    font-size: 44px;
+}
+.analyzing-text p{
+    margin-top: 46px;
+    font-family: unset;
+}
+.analyzing-text span{
+    color: red;
+    text-decoration: underline;
+}
+.analyzing-text ul li span{
+    color: black;
+}
+.section-analyzing .img img{
+    width: 100%;
+}
+.list{
+    position: relative;
+}
+.right:before{
+    content:'';
+    border: 1px solid #cecece;
+    position: absolute;
+    height: 47px;
+    bottom: 5px;
+    left: -25px;
+}
+.list h3{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+/* .line{
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 100px;
+} */
+/* .m-100{
+    margin-top: 100px;
+    
+} */
+.find-text{
+    width: 80%;   
+}
+.find-text h2{
+    font-size: 40px;
+    position: relative;
+}
+.find-text p{
+    margin-top: 46px;
+    font-family: unset;
+}
+.find-text h2:after{
+    content: url(./img/line.png);
+    width: 71px;
+    height: 9px;
+   position: absolute;
+   bottom: 0px;
+    left: 0px;
+}
+
+.find-button{
+    color: #fff;
+    background: rgb(241, 85, 85);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 45px;
+    margin: 30px 0px;
+}
+.section-find .img img{
+    width: 100%;
+}
+
+
+
+
+.advice-text h2{
+    position: relative;
+    font-size: 44px;
+    
+}
+.advice-text h2:after{
+    content: url(./img/line.png);
+   width: 71px;
+   height: 9px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+.advice-text p{
+    margin-top: 46px;
+    font-family: unset;
+}
+.section-advice .img img{
+    width: 100%;
+}
+
+/* present */
+
+
+.present-icons{
+    padding: 30px;
+}
+.present-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.present-text h3{
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-family: unset;
+}
+.present-text p{
+    font-family: monospace;
+    margin-bottom: 50px;
+}
+.present-img img{
+    width: 100%;
+}
+
+/* section-easy */
+
+
+.easy-text h2{
+      font-size: 35px;
+      margin-bottom: 15px;
+}
+
+.easy-text span{
+    color: #a9a9a9;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.easy-text p{
+    font-style: oblique;
+    font-size: 12px;
+    font-family: cursive;
+    width: 75%;
+}
+.background{
+    background: rgb(245, 245, 245);
+}
+.easy-name{
+    display: table;
+    padding-top: 20px;
+}
+.easy-name .one{
+    background: grey;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: table-cell;
+}
+.easy-name .two{
+     display: table-cell;
+     vertical-align: middle;
+}
+.easy-name .two h3{
+    font-size: 16px;
+    margin: 0px 10px 5px 5px;
+}
+.easy-name .two span{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.easy-img .img img{
+    width: 100%;
+}
+
+
+/* section-sales */
+
+.sales-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.sales-text h3{
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-family: unset;
+}
+.sales-text p{
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+.sales-btn button{
+    color: #fff;
+    background: rgb(241, 85, 85);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 45px;
+    margin-bottom: 50px;
+}
+.section-sales{
+    text-align: center;
+}
+.sales-img img{
+    width: 100%;
+}
+
+
+/* footer */
+
+
+.footer-left img{
+    width: 104px;
+    height: 35px;
+}
+.footer-left p{
+    margin-top: 20px;
+}
+.footer-left{
+    margin-right: 50px;
+}
+.footer-middle p{
+    position: relative;
+    top: 75px;
+}
+.footer-middle p:before{
+    content: "\00A9";
+}
+.footer-icons a{
+    color:#cecece;
+    font-size: 18px;
+}
+.p10{
+    padding: 30px 10px 10px 10px;
+}
+.footer-text{
+    padding: 15px 0px;
+}
+.footer-right a{
+    color: black;
+}
+.footer{
+    background: rgb(245, 245, 245);
+    padding-bottom: 50px;
+    
+}
+.footer-right a:first-child{
+    margin-right: 10px;
+}
+
+@media(max-width:425px){
+    
+    .form-group{
+        width: 100%;
+    }
+    .chat{
+        width: 100%;
+    }
+    .chat-first{
+        left: 0px;
+    }
+    .chat-second{
+        right: 0px;
+    }
+    .chat-first img{
+        display: none;
+    }
+    .chat-second img{
+        display: none;
+    }
+    .present-text{
+        width: auto;
+    }
+    .sales-text{
+        width: auto;
+    }
+    .footer-middle p{
+        top: 0px;
+    }
+    .footer-left p{
+        display: none;
+    }
+    .footer-left{
+        padding: 20px 0px;
+    }
+    .present-icons p{
+        font-size: 12px;
+    }
+    .present-icons{
+        padding: 30px 0px;
+    }
+    .find-text{
+        width: 100%;
+    }
+    .easy-text p{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .easy-name{
+        padding: 20px 0px;
+    }
+    .search .form-group .enter{
+        width: 70%;
+        font-size: 10px;
+    }
+    .form-group .enter-submit{
+        width: 30%;  
+        font-size: 10px; 
+    }
+    .title{
+        width: 100%;
+    }
+    .title h1{
+        font-size: 24px;
+    }
+    .title p{
+        font-size: 12px;
+    }
+    .footer{
+        text-align: center;
+    }
+
+    
+}
+@media(min-width:426px) and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .mylogo{
+        margin-left: -50px;
+    }
+    .mynavbar{
+        font-size: 10px;
+    }
+    .mylogo img{
+        width: 100px;
+    }
+    .form-group{
+        width: 60%;
+    }
+    .form-group .enter{
+        width: 70%;
+    }
+    .form-group .enter-submit{
+        width: 30%;
+    }
+    .chat{
+        width: 50%;
+    }
+}
+@media(min-width:769px) and (max-width:1024px){
+    .footer{
+        text-align: center;
+    }
+    
+}
+
